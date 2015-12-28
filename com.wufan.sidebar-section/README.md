@@ -16,13 +16,13 @@ $ bower install com.wufan.sidebar-section --save
 
  ```html
     <wf-sidebar><wf-sidebar>
-  ```html
+ ```html
   set your items in sidebarconstant.js set.items field;
 
   section usage
   ```html
     <wf-section><wf-section>
-    ```html
+  ```html
 
   Generally, sidebar will acompany the section besides its right side,the seciton can adjust to
   the item clicked or selected in sidebar,therefore

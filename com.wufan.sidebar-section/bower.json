@@ -3,6 +3,7 @@
   "authors": [
     "Neohua87"
   ],
+  "version":"1.0.0",
   "description": "5ftech inner sidebar",
   "main": "sidebar.js",
   "moduleType": [],
