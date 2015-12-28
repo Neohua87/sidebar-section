@@ -16,7 +16,7 @@ $ bower install com.wufan.sidebar-section --save
 
  ```html
     <wf-sidebar><wf-sidebar>
-  ```
+  ```html
   set your items in sidebarconstant.js set.items field;
 
   section usage
