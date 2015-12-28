@@ -1,0 +1,21 @@
+{
+  "name": "com.wufan.sidebar-section",
+  "authors": [
+    "Neohua87"
+  ],
+  "description": "5ftech inner sidebar",
+  "main": "sidebar.js",
+  "moduleType": [],
+  "keywords": [
+    "sidebar"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
