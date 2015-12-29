@@ -9,7 +9,7 @@
 angular.module('publicApp')
   .directive('wfSidebar', function (sidebarConstant) {
     return {
-      templateUrl: '/scripts/directives/template.html',
+      templateUrl: 'bower_components/com.wufan.sidebar-section/com.wufan.sidebar-section/directvies/wfsidebar.html',
       restrict: 'E',
       scope: {
         items:'=',

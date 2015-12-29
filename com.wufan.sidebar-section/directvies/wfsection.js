@@ -10,7 +10,7 @@ angular.module('publicApp')
   .directive('wfSection', function () {
     return {
       transclude:true,
-      templateUrl: '/scripts/directives/wfsection.html',
+      templateUrl: 'bower_components/com.wufan.sidebar-section/com.wufan.sidebar-section/directvies/wfsection.html',
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
 

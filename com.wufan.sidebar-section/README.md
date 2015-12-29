@@ -11,7 +11,16 @@ refer to example.html && yourctrl.js
 $ bower install com.wufan.sidebar-section --save
 
 ## Usage
-
+第一步:
+   在要用的html文件例如index.html内引入四个js文件
+   第二步:
+   将sectionconstant.js和sidebarconstant.js里面的set下字段设置为自身需求
+   第三步
+   在index.html中引用 <wf-sidebar><wf-sidebar>和
+   <wf-sidebar section-Selected="sectionSelected(index)"><wf-sidebar>
+   (可直接复制example.html的从row开始内容)
+   第四步
+   在自己控制器,写入yourctrl.js的内容,可知接复制该文件,并改为相应的名字,如mainctrl.js即可
   sidebar usage
 
  ```html
