@@ -11,20 +11,18 @@
         <!--set the items on sidebar in sidebarconstant.js set fields-->
         <wf-sidebar section-Selected="sectionSelected(index)">
             <!--here is the view beside the sidebar-->
-            <wf-section>
-                <!--set your title in sectionconstant.js set.title field-->
-                <header>
-                    <h3>{{section.title}}</h3>
-                </header>
-                <!--<p>这是可添加新内容</p>-->
-                <!--set your view in sectionconstant.jse set.section field-->
-                <!--method 1:ng-view to use ,must config your views on routerProvider-->
-                <div ng-view=""></div>
-                <!--method 2: don't need to config your views on routerProvider-->
-                <!--<div ng-include="view" ng-repeat="view in section.views track by $index" ng-show="section.viewid===$index"></div>-->
-            </wf-section>
-        </wf-sidebar>
 
+        </wf-sidebar>
+        <wf-section>
+            <!--set your title in sectionconstant.js set.title field-->
+            <header>
+                <h3>{{section.title}}</h3>
+            </header>
+            <!--<p>这是可添加新内容</p>-->
+            <!--set your view in sectionconstant.jse set.section field-->
+            <div ng-view=""></div>
+
+        </wf-section>
     </div>
 
 
